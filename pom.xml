@@ -28,7 +28,7 @@
     <artifactId>dd-vault-metadata-api</artifactId>
     <version>1.0.1-SNAPSHOT</version>
 
-    <name>DD Vault Metadata Api</name>
+    <name>DD Vault Metadata API</name>
     <url>https://github.com/DANS-KNAW/dd-vault-metadata-api</url>
     <description>Service that sets or updates the Data Data Vault Metadata</description>
     <inceptionYear>2024</inceptionYear>
