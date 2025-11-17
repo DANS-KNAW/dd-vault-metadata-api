@@ -44,5 +44,62 @@ paths:
                 example: |
                   Vault Metadata API Running (v${project.version})
 
+  /invoke:
+    post:
+      summary: Invoke a virus scan
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/StepInvocation'
+      responses:
+        '200':
+          description: Vault metadata update invoked successfully
+          content:
+            application/json:
+              schema:
+                type: object
+        '400':
+          description: Invalid input
+  /rollback:
+    post:
+      summary: Rollback a previous operation
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+      responses:
+        '200':
+          description: Rollback successful
+          content:
+            application/json:
+              schema:
+                type: object
+        '400':
+          description: Invalid input
+
 components:
-  # Reusable schemas
+  schemas:
+    StepInvocation:
+      type: object
+      properties:
+        invocationId:
+          type: string
+        globalId:
+          type: string
+        datasetId:
+          type: string
+        majorVersion:
+          type: string
+        minorVersion:
+          type: string
+      required:
+        - invocationId
+        - globalId
+        - datasetId
+        - majorVersion
+        - minorVersion
+
