@@ -26,7 +26,7 @@
     </parent>
 
     <artifactId>dd-vault-metadata-api</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
 
     <name>DD Vault Metadata Api</name>
     <url>https://github.com/DANS-KNAW/dd-vault-metadata-api</url>
@@ -35,7 +35,7 @@
 
     <scm>
         <developerConnection>scm:git:ssh://github.com/DANS-KNAW/dd-vault-metadata-api</developerConnection>
-        <tag>v1.0.0</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <build>
