@@ -30,7 +30,7 @@
 
     <name>DD Vault Metadata API</name>
     <description>Service that sets or updates the Data Data Vault Metadata</description>
-    <url>https://github.com/DANS-KNAW/dd-vault-metadata-api</url>
+    <url>https://dans-knaw.github.io/dd-vault-metadata-api</url>
     <inceptionYear>2024</inceptionYear>
 
     <scm>
