@@ -26,7 +26,7 @@
     </parent>
 
     <artifactId>dd-vault-metadata-api</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.1</version>
 
     <name>DD Vault Metadata API</name>
     <description>Service that sets or updates the Data Data Vault Metadata</description>
@@ -36,7 +36,7 @@
     <scm>
         <connection>scm:git:https://github.com/DANS-KNAW/dd-vault-metadata-api</connection>
         <developerConnection>scm:git:ssh://github.com/DANS-KNAW/dd-vault-metadata-api</developerConnection>
-        <tag>HEAD</tag>
+        <tag>v1.0.1</tag>
         <url>https://github.com/DANS-KNAW/dd-vault-metadata-api</url>
     </scm>
 
