@@ -32,6 +32,7 @@ info:
 paths:
   /:
     get:
+      operationId: rootGet
       summary: Returns a description of the service.
       responses:
         200:
@@ -46,6 +47,7 @@ paths:
 
   /invoke:
     post:
+      operationId: invokePost
       summary: Invoke a virus scan
       requestBody:
         required: true
@@ -64,6 +66,7 @@ paths:
           description: Invalid input
   /rollback:
     post:
+      operationId: rollbackPost
       summary: Rollback a previous operation
       requestBody:
         required: true
